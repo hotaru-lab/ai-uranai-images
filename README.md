@@ -44,24 +44,25 @@ GitHubで `ai-uranai-images` リポジトリを開く。
 
 基本的な構成は以下のとおり。
 
-`ai-uranai-images/`
-　└─ `Deck_ID/`
-　　　├─ `DeckID_cover.png`
-　　　├─ `DeckID001_カード名.png`
-　　　├─ `DeckID002_カード名.png`
-　　　└─ …
-
+```text
+ai-uranai-images/
+└─ Deck_ID/
+　　├─ DeckID_cover.png
+　　├─ DeckID001_カード名.png
+　　├─ DeckID002_カード名.png
+　　└─ …
+```
 Wildflower Lovers Lenormandの場合：
-
-`ai-uranai-images/`
-　└─ `wildflower_lovers_lenormand/`
-　　　├─ `WL_cover.png`
-　　　├─ `WL001_Rider.png`
-　　　├─ `WL002_Clover.png`
-　　　├─ `WL003_Ship.png`
-　　　└─ …
-　　　└─ `WL036_Cross.png`
-
+```
+ai-uranai-images/
+└─ wildflower_lovers_lenormand/
+　　├─ WL_cover.png
+　　├─ WL001_Rider.png
+　　├─ WL002_Clover.png
+　　├─ WL003_Ship.png
+　　└─ …
+　　└─ WL036_Cross.png
+```
 ### 5. 画像URL
 
 画像はGitHubのRaw URLでアプリから読み込む。
