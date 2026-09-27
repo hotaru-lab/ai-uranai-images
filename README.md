@@ -94,6 +94,10 @@ English_Name内のスペースは `_` に置き換える。
 
 実際のリネーム前に、対象ファイルと対応するEnglish_Nameを確認する。
 
+`  PowerShell
+
+`  Get-ChildItem -File | Select-Object Name
+
 ### 5. カバー画像
 
 カバー画像はカード画像とは別に管理する。
